@@ -13,18 +13,18 @@ import java.util.TreeMap;
 
 public class BarbacoaStorage {
 
-private static BarbacoaStorage instance;
+    private static BarbacoaStorage instance;
 
-private Map<Integer, Barbacoa> storage = new TreeMap<>();
+    private Map<Integer, Barbacoa> storage = new TreeMap<>();
 
-private BarbacoaStorage(){
+    private BarbacoaStorage() {
+
+    }
+
+    public void save(Barbacoa barbacoa) {
+        storage.put(barbacoa.getId(), barbacoa);
+    }
+
 
 }
-public void  save(Barbacoa barbacoa){
 
-
-}
-
-
-
-}

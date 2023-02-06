@@ -1,5 +1,7 @@
 package data;
 
+import domain.models.Pizza;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -14,5 +16,8 @@ public class PizzaStorage {
 
     private PizzaStorage(){
 
+    }
+
+    public void save(Pizza pizza) {
     }
 }

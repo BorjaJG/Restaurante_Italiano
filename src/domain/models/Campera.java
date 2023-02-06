@@ -1,6 +1,6 @@
 package domain.models;
 
-public class Campera {
+public class Campera extends Pizza {
 
     private boolean quesoazul;
     private boolean quesocabra;
