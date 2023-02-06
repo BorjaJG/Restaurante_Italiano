@@ -24,6 +24,7 @@ public class BarbacoaStorage {
     public void save(Barbacoa barbacoa) {
         storage.put(barbacoa.getId(), barbacoa);
     }
+    public void o
 
 
 }
